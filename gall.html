@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>The Guide of SFU</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/three.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+        <script type="text/javascript" src="js/js2.js"></script>
+        <script type="text/javascript" src="js/stats.js"></script> 
+        <script type="text/javascript" src="js/dat.gui.js"></script>
+        <script type="text/javascript" src="js/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="js/OBJLoader.js"></script>
+        <script type="text/javascript" src="js/OrbitControls.js"></script>
+             
+        <link href="css/css.css" rel="stylesheet">
+        
+    </head>
+    
+    <body  onload="init()" oncontextmenu="return false;">
+        
+        <!-- Instruction mouse 
+        <div class="mouse_backg" id="mouse_backg">
+            <div class = 'mouse_div'><img src='images/mouse.jpg'>
+                <input class="mouse_button" type="button" value="Далее" onclick="goMainPage()">
+            </div>
+        </div>
+-->
+        <!-- Panel of navigation -->
+        <div class="info" id="info" onclick="dosmth()">
+            <div class="center_panel">
+                <input class="search" type="text" value="Пример: Кафедра ГИ">
+                <button class="find" value="Поиск"></button>
+            </div>
+        </div>
+
+        <div class="1223">
+            <img src="images/switcher.png" width="70px" onclick="switchToOtherView(this)">
+        </div>
+    
+    </body>
+</html>	

@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.info{
+    display: block;
+    color: white;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8d706d;
+    text-align: center;
+    height: 100px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.mouse_button{
+    background-color:  #fb5f5f;
+    width: 100px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mouse_div{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-top: 70px; 
+    z-index: 999;
+}
+
+.mouse_backg{
+    background-color: #f5f5f5;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    opacity: 75%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 998;
+}
+
+.center_panel{
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    overflow:visible;
+    width: 450px;
+    background-color: #e02c2c;
+    box-shadow: 0px 0px 5px black;
+}
+
+.search{
+    width: 70%;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    background-color: bisque;
+    color: darkgrey;
+    font-style: italic;
+    border-radius: 3px;
+    border: 2px solid white;
+    
+}
+.search:focus{
+    border: 2px inset white;
+} 
+
+.find{
+     display:block;
+     margin: 40px auto;
+}
+
+.s3dsw{
+    position: fixed;
+    display: block;
+    bottom: 30px;
+    right: 20px;
+}
